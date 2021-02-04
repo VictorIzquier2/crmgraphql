@@ -1,0 +1,27 @@
+{
+  "name": "crmgraphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorIzquier2/crmgraphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictorIzquier2/crmgraphql/issues"
+  },
+  "homepage": "https://github.com/VictorIzquier2/crmgraphql#readme",
+  "dependencies": {
+    "apollo-server": "^2.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
