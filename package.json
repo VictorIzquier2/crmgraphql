@@ -19,7 +19,11 @@
   },
   "homepage": "https://github.com/VictorIzquier2/crmgraphql#readme",
   "dependencies": {
-    "apollo-server": "^2.19.2"
+    "apollo-server": "^2.19.2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.15"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
