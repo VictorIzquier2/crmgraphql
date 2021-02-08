@@ -5,7 +5,9 @@ const ProductosSchema = mongoose.Schema({
   existencia: {type: Number, required: true, trim: true},
   precio: {type: Number, required: true, trim: true},
   creado: {type: Date, default: Date.now()}
-})
+});
+
+ProductosSchema.index({nombre: 'text'});
 
 Producto = mongoose.model('Producto', ProductosSchema);
 
