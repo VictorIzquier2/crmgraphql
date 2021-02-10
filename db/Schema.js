@@ -101,10 +101,10 @@ const typeDefs = gql`
     COMPLETADO
     CANCELADO
   }
-
+  
   type Query {
     # Usuarios
-    obtenerUsuario(token: String!): Usuario 
+    obtenerUsuario: Usuario 
 
     # Productos
     obtenerProductos: [Producto]
